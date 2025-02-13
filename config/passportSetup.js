@@ -2,10 +2,6 @@ const passport = require("passport");
 const OAuth2Strategy = require("passport-google-oauth2").Strategy;
 const userdb = require("../model/userSchema");
 
-const clientid =
-  "353569809771-ltpvei0igp7r8gs87s4iqf9nitkpie7a.apps.googleusercontent.com";
-const clientsecret = "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";
-
 passport.use(
   new OAuth2Strategy(
     {
